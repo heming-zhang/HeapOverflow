@@ -1,0 +1,29 @@
+{
+  "name": "heapoverflow-backend",
+  "version": "1.0.0",
+  "description": "an online Q&A website",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cse330-fall-2019/creativeproject-creativeproject-475982-475509.git"
+  },
+  "author": "Haodong Huang, Heming Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cse330-fall-2019/creativeproject-creativeproject-475982-475509/issues"
+  },
+  "homepage": "https://github.com/cse330-fall-2019/creativeproject-creativeproject-475982-475509#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.0.1",
+    "sequelize": "^5.21.2"
+  }
+}
